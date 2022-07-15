@@ -1,0 +1,25 @@
+{
+  "name": "react-doc-to-pdf",
+  "version": "1.0.0",
+  "description": "A npm package for converting doc file to pdf in React js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishforgive/react-file-npm.git"
+  },
+  "keywords": [
+    "react-convert-doc"
+  ],
+  "author": "Ashish Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashishforgive/react-file-npm/issues"
+  },
+  "homepage": "https://github.com/ashishforgive/react-file-npm#readme",
+  "dependencies": {
+    "jspdf": "^2.5.1"
+  }
+}

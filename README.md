@@ -1,4 +1,4 @@
-# react-file-npm
+# react-doc-to-pdf
 NPM package for converting .doc in pdf in React Js.
 
 

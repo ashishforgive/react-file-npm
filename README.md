@@ -22,12 +22,12 @@ $ yarn install react-doc-to-pdf
 
 * [@react-pdf/renderer](https://www.npmjs.com/package/@react-pdf/renderer) - React renderer for creating PDF files on the browser and server
 * [react-pdf](https://www.npmjs.com/package/react-pdf) - Display PDFs in your React app as easily as if they were images.
-* [react-to-pdf] (https://www.npmjs.com/package/react-to-pdf) - Easily create pdf documents from React components.
+* [react-to-pdf](https://www.npmjs.com/package/react-to-pdf) - Easily create pdf documents from React components.
 
 
 ## Examples
 
-Coming soon!
+*[codesandbox]https://codesandbox.io/embed/festive-haslett-1mkuy4?fontsize=14&hidenavigation=1&theme=dark
 
 ## Usage
 - Convert textarea text to pdf.
@@ -40,7 +40,7 @@ const App = () =>{
      
      return(
          <div>
-            <ConvertDocToPdf text= "Text for pdf conversion" filename="dummy.pdf">
+            <ConvertDocToPdf text= "Text for pdf conversion" filename="dummy.pdf"/>
         </div>
      )
 }

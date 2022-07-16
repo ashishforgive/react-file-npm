@@ -1,10 +1,13 @@
 
+# 1.0.3
+Updated example in Readme.md
+
 # 1.0.2
 Fix jsx issues. 
 Add class name for styling.
 Condition for blanks props.
 convert file type to JSX.
-Updated name and tag in Readme.md
+Updated name and tag in
 
 # 1.0.1 
 

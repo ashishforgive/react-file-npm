@@ -1,5 +1,5 @@
 # react-doc-to-pdf
-NPM package for converting .doc in pdf in React Js.
+ package for converting text or .doc  to pdf in React Js.
 
 
 
@@ -7,12 +7,15 @@ NPM package for converting .doc in pdf in React Js.
 
 ```
 $ npm install react-doc-to-pdf
+ #or 
+$ yarn install react-doc-to-pdf
 ```
 
 ## Important Notes
 
 - Single page
-- Only working for String.
+- Only working for text String to pdf. 
+- Doc to pdf will come soon!
 
 
 ## Alternatives and Similars Packages
@@ -27,14 +30,25 @@ $ npm install react-doc-to-pdf
 Coming soon!
 
 ## Usage
+- Convert textarea text to pdf.
 
-**Using inner target ref**
-
+**Using**
 ```jsx
-<div>
-    <ConvertDocToPdf text= "Text for pdf conversion" filename="dummy">
-</div>
+import ConvertDocToPdf from 'react-doc-to-pdf'
+
+const App = () =>{
+     
+     return(
+         <div>
+            <ConvertDocToPdf text= "Text for pdf conversion" filename="dummy.pdf">
+        </div>
+     )
+}
+
 ```
+
+# Change button style. 
+- Add '.convert-pdf-btn' to scss file.
 
 
 
